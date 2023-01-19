@@ -1,0 +1,267 @@
+// ------------------------------------------------------ Trader Markers -------------------------------------------------------
+
+// NEGANS SANCTUARY TRADER :
+
+<TraderMarker> 			0 	// TOOLS
+<TraderMarkerPosition>	2015.9,    239.8,     9452.1 		// Coordinate X, 	Coordinate Y, 	Coordinate Z
+<TraderMarkerSafezone>	20									// Safezone Radius
+
+<TraderMarker> 			1	// FOOD					
+<TraderMarkerPosition>	2021.29,    240.674,    9452.67	
+<TraderMarkerSafezone>	20
+
+<TraderMarker> 			2	// CLOTHING 
+<TraderMarkerPosition>	2026.35,    240.615,    9452.67	
+<TraderMarkerSafezone>	20
+
+<TraderMarker> 			3	// GUNS 
+<TraderMarkerPosition>	2031.9,    240.9,    9461.5
+<TraderMarkerSafezone>	20
+
+<TraderMarker> 			4	// MAGS 
+<TraderMarkerPosition>	2032.2,		240.9,	9456.8
+<TraderMarkerSafezone>	20
+
+<TraderMarker> 			5	// CAR SELLER 
+<TraderMarkerPosition>	2005.62,		240.413,	9472.87	
+<TraderMarkerSafezone>	10
+<VehicleSpawn>			2004.99,		239.866,		9464.39	// Vehicle Spawnpoint; 	Coordinate X, 	Coordinate Y, 	Coordinate Z (optional)
+<VehicleSpawnOri>		260,		0,			0				// Vehicle Spawnpoint Orientation; 	Yaw, 			Pitch, 			Roll	 	 (optional)
+
+
+// Miezgovce Church :
+
+<TraderMarker> 			6 	// Church Miezgovce
+<TraderMarkerPosition>	9964.48,    249.881,     1664.84 		// Coordinate X, 	Coordinate Y, 	Coordinate Z
+<TraderMarkerSafezone>	10									// Safezone Radius
+
+// Miezgovce Church :
+
+<TraderMarker> 			7 	// Church Biskupice
+<TraderMarkerPosition>	3390.05,    228.616,     460.19 		// Coordinate X, 	Coordinate Y, 	Coordinate Z
+<TraderMarkerSafezone>	10									// Safezone Radius
+
+
+// Arena Heli Trader :
+<TraderMarker> 			8	// trader NPC 
+<TraderMarkerPosition>	7372.89,		266.981,	5776.36	
+<TraderMarkerSafezone>	20
+<VehicleSpawn>			7334.84,		266.492,		5793.66	// Vehicle Spawnpoint; 	Coordinate X, 	Coordinate Y, 	Coordinate Z (optional)
+<VehicleSpawnOri>		90,		0,			0				// Vehicle Spawnpoint Orientation; 	Yaw, 			Pitch, 			Roll	 	 (optional)
+
+
+// Black Market WEAPONS
+<TraderMarker> 			9	// VENDING MACHINE
+<TraderMarkerPosition>	8010.56,		551.961,	9926.53
+<TraderMarkerSafezone>	0
+
+
+// Black Market DRUGS
+<TraderMarker> 			10	// VENDING MACHINE
+<TraderMarkerPosition>	8004.11,		551.936,	9923.05
+<TraderMarkerSafezone>	0
+
+
+// Black Market COLLECTABLES
+<TraderMarker> 			11	// VENDING MACHINE
+<TraderMarkerPosition>	8006.5,		551.897,	9912
+<TraderMarkerSafezone>	0
+
+
+// ------------------------------------------------------ Objects to Spawn ------------------------------------------------------
+	
+// NEGANS SANCTUARY TRADER :
+
+<Object> 			SurvivorF_Keiko		// TOOLS	
+<ObjectPosition>	2015.9,    239.8,     9452.1		// Coordinate X, 	Coordinate Y, 	Coordinate Z
+<ObjectOrientation>	0, 		0,			0
+//<ObjectAttachment>	NPC_DUMMY	// Add for non Character Object for Trader (Vending Machines, etc.). It is needed to make the User Action for the Trading Menu work.
+<ObjectAttachment>	Wrench							
+<ObjectAttachment>	SledgeHammer
+<ObjectAttachment>	WorkingGloves_Brown
+<ObjectAttachment>	ConstructionHelmet_White
+<ObjectAttachment>	MVS_CountryFlag_Ukraine
+<ObjectAttachment>	ReflexVest
+<ObjectAttachment>	Shirt_BlueCheck
+<ObjectAttachment>	CanvasPants_Blue
+<ObjectAttachment>	WorkingBoots_Grey
+
+
+<Object> 			SurvivorF_Irena		// FOOD						
+<ObjectPosition>	2021.2,    239.8,    9451.8			
+<ObjectOrientation>	0, 			0,			0				
+<ObjectAttachment>	BoxCerealCrunchin	
+<ObjectAttachment>	SurgicalMask_blood	
+<ObjectAttachment>	SurgicalGloves_White
+<ObjectAttachment>	MVS_CountryFlag_Ukraine
+<ObjectAttachment>	Bandana_Polkapattern
+<ObjectAttachment>	Shirt_checkHero
+<ObjectAttachment>	Skirt_darkblue
+<ObjectAttachment>	DressShoes_White
+
+
+<Object> 			SurvivorF_Frida		// CLOTHING
+<ObjectPosition>	2026.4,		239.8,	9451.8
+<ObjectOrientation>	0, 		0,			0
+<ObjectAttachment>	ThickFramesGlasses
+<ObjectAttachment>	Sweater_festive
+<ObjectAttachment>	MVS_CountryFlag_Ukraine
+<ObjectAttachment>	Jeans_Acidwash
+<ObjectAttachment>	DressShoes_Black
+
+
+<Object> 			SurvivorM_Seth		// GUNS 
+<ObjectPosition>	2031.9,    240.9,    9461.5	
+<ObjectOrientation>	270, 0,			0
+<ObjectAttachment>	FirefighterAxe
+<ObjectAttachment>	SVD
+<ObjectAttachment>	PSO1Optic
+<ObjectAttachment>	M4A1
+<ObjectAttachment>	M4_RISHndgrd
+<ObjectAttachment>	Universallight
+<ObjectAttachment>	M4_OEBttstck
+<ObjectAttachment>	M68Optic
+<ObjectAttachment>	M4_Suppressor
+<ObjectAttachment>	OMNOGloves_Gray	
+<ObjectAttachment>	MVS_CountryFlag_Ukraine
+<ObjectAttachment>	MVS_ArmoredHelmet_Black
+<ObjectAttachment>	MVS_Combat_Vest_Heavy_Multicam_Black
+<ObjectAttachment>	Military_Sweater_Red
+<ObjectAttachment>	MVS_CombatPants_Black
+<ObjectAttachment>	MilitaryBoots_Black
+
+
+<Object> 			SurvivorM_Taiki		// MAGS
+<ObjectPosition>	2032.2,    240.9,    9456.8	
+<ObjectOrientation>	270, 	0,			0
+<ObjectAttachment>	Mag_STANAG_30Rnd
+<ObjectAttachment>	SportGlasses_Orange
+<ObjectAttachment>	BaseballCap_Camo
+<ObjectAttachment>	TacticalShirt_Olive
+<ObjectAttachment>	MVS_CountryFlag_Ukraine
+<ObjectAttachment>	SmershVest
+<ObjectAttachment>	BDUPants
+<ObjectAttachment>	TTSKOBoots
+<ObjectAttachment>	AssaultBag_Ttsko
+
+
+<Object> 			SurvivorM_Peter		// CARS 
+<ObjectPosition>	2005.62,		240.413,	9472.87	
+<ObjectOrientation>	180, 0,			0
+<ObjectAttachment>	LugWrench
+<ObjectAttachment>	beanie_redblue
+<ObjectAttachment>	Shirt_Hawaiian1
+<ObjectAttachment>	MVS_CountryFlag_Ukraine
+<ObjectAttachment>	Breeches_Blend
+<ObjectAttachment>	CivilianBelt_red
+<ObjectAttachment>	HikingBootsLow_Blue
+
+
+// Miezgovce Church :
+
+<Object> 			SurvivorF_Frida		// Church Miezgovce
+<ObjectPosition>	9964.48,    249.881,     1664.84		
+<ObjectOrientation>	200, 		0,			0
+//<ObjectAttachment>	NPC_DUMMY	
+<ObjectAttachment>	ChernarusMap_Open							
+<ObjectAttachment>	DesignerGlasses
+<ObjectAttachment>	MassFedora_Pink
+<ObjectAttachment>	Breeches_Pink
+<ObjectAttachment>	Layered_Shirt_Lily
+<ObjectAttachment>	Wellies_pink
+
+
+<Object> 			SurvivorM_Taiki		// Church Biskupice
+<ObjectPosition>	3390.05,    228.616,     460.193	
+<ObjectOrientation>	150, 	0,			0
+<ObjectAttachment>	ChernarusMap_Open		
+<ObjectAttachment>	ThickFramesGlasses
+<ObjectAttachment>	MassFedora_Black
+<ObjectAttachment>	MassDetectiveCoat_Black
+<ObjectAttachment>	ChestHolster_black
+<ObjectAttachment>	Jeans_Wounded
+<ObjectAttachment>	AthleticShoes_Black
+
+<Object> 			SurvivorM_Peter		// Arena Heli Trader
+<ObjectPosition>	7372.89,		266.981,	5776.36	
+<ObjectOrientation>	0, 	0,			0
+<ObjectAttachment>	RFFSHeli_aviation_toolbox		
+<ObjectAttachment>	RFFSHeli_PilotHelmet
+<ObjectAttachment>	RFFSHeli_hoodie
+<ObjectAttachment>	RFFSHeli_PilotGloves
+<ObjectAttachment>	RFFSHeli_PilotPants
+<ObjectAttachment>	AthleticShoes_Black
+
+
+// BLACK MARKET 
+<Object> 		BVM_VendingMachine_weapons    // Weapons VM 
+<ObjectPosition>	8010.56,		551.961,	9926.53
+<ObjectOrientation>	200, 0, 0
+<ObjectAttachment>	NPC_DUMMY
+
+
+// BLACK MARKET 
+<Object> 		BVM_VendingMachine_drugs    // Drugs VM 
+<ObjectPosition>	8004.11,		551.936,	9923.05
+<ObjectOrientation>	110, 0, 0
+<ObjectAttachment>	NPC_DUMMY
+
+
+// BLACK MARKET 
+<Object> 		BVM_VendingMachine_collectables    // Collectables VM
+<ObjectPosition>	8006.5,		551.897,	9912
+<ObjectOrientation>	20, 0, 0
+<ObjectAttachment>	NPC_DUMMY
+
+// PLACED ITEMS
+
+<Object>			Land_Misc_Well_Pump_Blue
+<ObjectPosition>	2016.8,		239.865,	9459.02
+<ObjectOrientation>	0,			0,			0
+
+<Object>			BarrelHoles_Green	// CENTER BARREL 
+<ObjectPosition>	2024.52,	239.865,	9457.99
+<ObjectOrientation>	0,			0,			0
+
+<Object>			BarrelHoles_Red		// CAR GARAGE BARREL 	
+<ObjectPosition>	1998.19,	239.579,	9471.14
+<ObjectOrientation>	0,			0,			0
+
+
+<Object>			BarrelHoles_Yellow		// STREET BARREL 
+<ObjectPosition>	1839.78,	225.698,	9434.05
+<ObjectOrientation>	0,			0,			0
+
+<Object>			DC_BankingATMGreen      //	MAIN TRADER ATM
+<ObjectPosition>	2020.28,	239.866,		9462.62
+<ObjectOrientation>	0,			0,			0
+
+<Object>			DC_BankingATMGreen      //	HELI ATM
+<ObjectPosition>	7371.97,	266.762,		5781.64
+<ObjectOrientation>	180,			0,			0
+
+
+<Object>			BarrelHoles_Red		// Church Miezgovce BARREL 	
+<ObjectPosition>	9965.79,	249.88,		1661.24
+<ObjectOrientation>	0,			0,			0
+
+<Object>			BarrelHoles_Yellow		// Church Biskupice BARREL 	
+<ObjectPosition>	3394.62,	228.616,	458.37
+<ObjectOrientation>	0,			0,			0
+
+<Object>			Land_Misc_Well_Pump_Blue		// Church Biskupice Water pump 	
+<ObjectPosition>	3393.21,	228.28,		451.19
+<ObjectOrientation>	0,			0,			0
+
+<Object>			BarrelHoles_Red		// Arena Heli Barrel	
+<ObjectPosition>	7369.48,	266.77,		5783.09
+<ObjectOrientation>	0,			0,			0
+
+<Object>			BarrelHoles_Red		// Black Market Trader Barrel	
+<ObjectPosition>	8009.44,	551.913,		9917.05
+<ObjectOrientation>	0,			0,			0
+
+
+
+//<OpenFile> FileName.txt								// Links to another File; Must be right above <FileEnd>!
+<FileEnd>												// This has to be on the End of this File and is very importand!
